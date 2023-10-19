@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d8dae2;
+}
+
+
+
+
+
+
+
+
+
+
+.gallery {
+    position: relative;
+    padding: 62px;
+    width: 1062px;
+    height: 777px;
+    border-radius: 26px;
+    background: #eff0f1;
+    box-shadow: 0px 76px 27px 0px rgba(6, 27, 82, 0.1);
+    margin: 211px auto;
+}
+
+
+
+
+
+
+.decor {
+    width: 310px;
+    height: 294px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 310px;
+    background: linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), #E5E7F0;
+}
+
+.top {
+
+    right: 37px;
+    top: -143px;
+    flex-shrink: 0;
+    border-radius: 433px;
+    background: linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), #E5E7F0;
+}
+
+.bottom {
+    width: 433px;
+    height: 410px;
+    bottom: -164px;
+    left: -30px;
+    flex-shrink: 0;
+    border-radius: 433px;
+    background: linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), #E5E7F0;
+}
+
+
+
+
+
+
+
+
+
+.info {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 24px;
+    width: 443px;
+    height: 108px;
+}
+
+.title {
+    color: var(--0-e-0-e-38, #0e0e38);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.options {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+
+.options li {
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.options a {
+    text-decoration: none;
+    color: var(--0-e-0-e-38, #0e0e38);
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: row;
+    width: 938px;
+    height: 489px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 437px;
+    height: 489px;
+    background: #bbb;
+}
+
+.big-image {
+    margin-top: 24px;
+    width: 389px;
+    height: 268px;
+    border-radius: 24px;
+    background: url(/photo/001.png) center / cover;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+    width: 389px;
+}
+
+.small-image {
+    width: 119px;
+    height: 97px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+.block:nth-child(1) .small-image:nth-child(1) {
+    background: url(/photo/002.png) center / cover;
+}
+
+.block:nth-child(1) .small-image:nth-child(2) {
+    background: url(/photo/003.png) center / cover;
+}
+
+.block:nth-child(1) .small-image:nth-child(3) {
+    background: url(/photo/004.png) center / cover;
+}
+
+
+
+
+
+
+.big-image2 {
+    margin-top: 24px;
+    width: 389px;
+    height: 268px;
+    border-radius: 24px;
+    background: url(/photo/005.png) center / cover;
+}
+
+.block:nth-child(2) .small-image:nth-child(1) {
+    background: url(/photo/006.png) center / cover;
+}
+
+.block:nth-child(2) .small-image:nth-child(2) {
+    background: url(/photo/007.png) center / cover;
+}
+
+.block:nth-child(2) .small-image:nth-child(3) {
+    background: url(/photo/008.png) center / cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block-info {
+    display: flex;
+    flex-direction: row;
+    width: 389px;
+    align-items: center;
+    gap: 16px;
+    background: #02321000;
+}
+
+.title {
+    color: var(--0-e-0-e-38, #0E0E38);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 311px;
+    height: 36px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    width: 62px;
+    height: 31px;
+}
+
+.icon {
+    width: 31px;
+    height: 31px;
+    background: url(galary-icon-svg.svg);
+}
+
+.text-to-icon {
+    color: var(--0-e-0-e-38, #0E0E38);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
